@@ -34,6 +34,7 @@ PrintArray(matrix);
 int[,] pic = new int[,]*/
 
 // Заливка
+/*
 int[,] pic = new int[,]
 {
 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -81,6 +82,22 @@ void FillImage(int row, int col){
 
 FillImage(13, 13);
 PrintImage(pic);
-//
+*/
 
 //}
+/*
+double Factorial(int n){
+    if(n==1) return 1;
+    else return n*Factorial(n-1);
+}
+for(int i = 1; i <30; i++){
+Console.WriteLine(i + "!  = " + Factorial(i));
+}
+*/
+int Fibonacci(int n){
+    if(n == 1 || n == 2) return 1;
+    else return (Fibonacci(n - 1) + Fibonacci(n - 2));
+}
+for(int i =0; i < 4; i++){
+    Console.WriteLine(Fibonacci(i));
+}
