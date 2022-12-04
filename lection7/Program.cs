@@ -256,3 +256,4 @@ for(int n = 10; n < 40; n++)
 }
 System.Console.WriteLine((DateTime.Now -dt).TotalMilliseconds);
 Console.ReadLine();
+//конец
